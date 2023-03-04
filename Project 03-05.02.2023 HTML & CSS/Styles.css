@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+body{
+    align-items: center;
+    /* apply background image  */
+    background-image: url("/images/bg.png");
+    /* fix bgc-img size to fit page width */
+    background-size: cover;
+    /* Stop bgc-img repeat mode */
+    background-repeat: no-repeat;
+    /* apply google font link is in head tag */
+    font-family: 'Mulish', sans-serif;
+    /* body font color etc white */
+    color: white;
+}
+.navbar {
+    height: 3rem;
+    /* to apply bgc black to navbar */
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.logo{
+    margin-left: 10px;
+}
+.logo:hover{
+    background-color: #ed6fe9;    
+}
+.verticle-line{
+    height: 2rem;
+    border-right: 1px solid white ;   
+    position: absolute;
+    left: 14%; 
+}
+ul{
+    /* to remove deafault bullet mode of unorganisaed list i.e.ul */    
+    padding : 0 
+    list-style: none;
+    /* background: red; */
+    /* width: 700px; */
+    position: absolute;
+    left: 17%; 
+    top: 1.8%;    
+}
+li{
+    display: inline;
+    padding: 16px;
+}
+li:hover{
+    background-color: #fff;
+    color: rgb(37, 11, 37);
+}
+hero-section{
+    /* to locate apply bgc clr */
+    /* background-color:gray; */
+    /* width: 70%; */
+    height: 100vh;
+    /* to get elements in flex box */
+    display:flex;
+    /* to change default flex-direction from row to colum*/
+    flex-direction: column;
+    /* to aline items in centre of hero-section */
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+}
+.main-text{
+    /* background-color: greenyellow; */
+    margin: 1rem, 0, 0, 1rem;
+    font-size: 80px;
+    text-align: center;
+    text-decoration-line: 1;
+}
+.sub-text{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+button{
+    margin: 0, auto;
+    border-radius: 10px;
+    padding: 6px;
+    color: white;
+    background-color: purple;
+}
+button:hover{
+    background-color: #fff;
+    color: rgb(37, 11, 37);
+}
+.token{
+    margin-right: 10px;
+}
+.access{
+    margin-top: 2rem;
+    font-weight: 550;
+    font-size: x-large;
+}

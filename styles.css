@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+nav{
+    margin: 5rem 0;
+    font-size: 50px;
+}
+.container {
+    margin: 0 10vw;
+    padding: 1.5vw;
+    /* margin:2rem, 0,0,0; */
+background-color: rgb(181, 255, 253);
+}
+p{
+    margin: 1rem 6vw;    
+    text-align: justify;
+    color: mediumblue;
+}
+h1{
+    margin: 1rem 7vw;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    color: rebeccapurple;
+}
+li{
+   font-size: 1rem;
+    margin: 0 5rem;
+    text-align: left;
+}
+.current-project{
+    background-color: yellow;
+    font-size: 3rem;
+    font-weight: bolder;
+}
