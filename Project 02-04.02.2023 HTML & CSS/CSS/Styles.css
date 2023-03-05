@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+body{
+    width: 100pw;
+    color: #2b32b1;
+    font-family: 'Montserrat', sans-serif;        
+}
+navbar{
+    /* (bgc test to locate box) */
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    border-left-width: 10px;
+    padding-left: 6px;
+    padding-top: 4px;
+}
+
+.logo:hover{
+    background-color: #b9bcf2    
+}
+.btn:hover{
+    background: #dde3ed; 
+    font-weight: 900;
+    color: #4850e0;   
+}
+.btn{
+    color: white;
+    background-color:#4850e0;
+    border-radius: 10px;
+    padding: 0.7rem;
+}
+
+ul {
+    position: absolute;
+    top: 1px;
+    left: 100px;
+    list-style: none;
+    text-align: center;
+}
+li{   
+    display: inline-block;
+}
+.menu-item{
+   /* text-align: center; */
+   /* border: 1px solid blue;    */
+   padding: .5rem;
+   margin-top: 1.2vh;
+   width: auto
+}
+.menu-item:hover{
+    background: #dde3ed; 
+    font-weight: 900;
+    color: #2b32b1;   
+}
+h1{
+    font-size: 5rem;
+    font-weight: 600;
+}
+hero-section {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    /* (bgc test to locate box) */
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+p {
+    margin: 3rem 0 1.5rem 0;
+    line-height: 1.6;
+
+}
