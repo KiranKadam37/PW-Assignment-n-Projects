@@ -4,7 +4,8 @@
 body{
     align-items: center;
     /* apply background image  */
-    background-image: url("/images/bg.png");
+    background-image: url("./images/bg.png");
+    /* background-image: url("./../Project\ 01-03.02.2023\ HTML\ &\ CSS\images/bg.png"); */
     /* fix bgc-img size to fit page width */
     background-size: cover;
     /* Stop bgc-img repeat mode */
