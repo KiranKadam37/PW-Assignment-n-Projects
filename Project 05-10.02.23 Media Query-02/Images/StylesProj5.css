@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+hero-section{
+    margin-top: 55px;
+    background-color: #fff;
+    width: 80vw;
+    margin: 0 10vw;
+}
+
+img:hover{
+    cursor: pointer;
+
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+
+}
+img[alt="Hello"]{
+    height: 45px;
+}
+
+img[alt="pc-image"]{
+    height: 80vw;
+    position: absolute;
+
+}
+
+img[alt="frame"]{
+    height: 55vw;
+    
+}
+img[alt="github"]{
+    height: 30px;
+}
+
+img[alt="linkedin"]{
+    height: 30px;
+}
+img[alt="outlook"]{
+    height: 30px;
+}
+
+/* @media screen and (min-width: 400) {
+    .
+} */
