@@ -11,10 +11,11 @@ body{
     color: white;
 }
 hero-section{
-    margin-top: 55px;
+    display: flex;
+    /* margin-top: 55px;
     background-color: #fff;
     width: 80vw;
-    margin: 0 10vw;
+    margin: 0 10vw; */
 }
 
 img:hover{
@@ -30,9 +31,13 @@ img[alt="Hello"]{
     height: 45px;
 }
 
+img[alt="menu"]{
+    height: 45px;
+}
+
 img[alt="pc-image"]{
     height: 80vw;
-    position: absolute;
+    /* position: absolute; */
 
 }
 
