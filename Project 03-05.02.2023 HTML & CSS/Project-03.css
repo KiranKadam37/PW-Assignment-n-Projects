@@ -70,12 +70,12 @@ hero-section{
 .main-text{
     /* background-color: greenyellow; */
     margin: 1rem, 0, 0, 1rem;
-    font-size: 80px;
+    font-size: 8vw;
     text-align: center;
     text-decoration-line: 1;
 }
 .sub-text{
-    font-size: 1.7rem;
+    font-size: 3vw;
     font-weight: 600;
 }
 button{
