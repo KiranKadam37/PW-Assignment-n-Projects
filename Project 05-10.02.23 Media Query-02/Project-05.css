@@ -126,7 +126,7 @@ footer{
 
 
 img[alt="frame"] {
-  height: 50vh;
+  width: 40vw;
 }
 img[alt="social"] {
   height: 30px;
@@ -154,8 +154,8 @@ img[alt="social"] {
     text-align: center;
   }
 
-  img[alt="image.png"]{
-    width: 30vw;
+  img[alt="frame"]{
+    width: 80vw;
   }
   img[alt="pc-image"]{
     width: 60vw;
