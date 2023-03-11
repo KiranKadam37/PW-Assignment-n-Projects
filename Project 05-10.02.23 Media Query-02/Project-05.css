@@ -7,9 +7,9 @@
   color: white;
 }
 
-img:hover {
+/* img:hover {
   cursor: pointer;
-}
+} */
 nav {
   display: flex;
   justify-items: center;
@@ -73,6 +73,11 @@ img[alt="pc-image"] {
   width: 35vw;
 }
 
+.menu-look a{
+  text-decoration: none;
+  background-color: transparent;
+}
+
 horizontal-line {
   display: flex;
   flex-direction: column;
@@ -82,6 +87,7 @@ horizontal-line {
 hrline {
   height: 10px;
   width: 130px;
+  text-decoration: none;
   background-color: #6d9209;
   border-radius: 20px;
   margin-bottom: 20px;
