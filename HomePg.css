@@ -1,0 +1,189 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+/* img:hover {
+  cursor: pointer;
+} */
+nav {
+  display: flex;
+  justify-items: center;
+  justify-content: flex-end;
+  margin: 20px;
+}
+nav ul li:hover{
+  background-color: #6464e0;
+  cursor: pointer;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+nav ul li {
+  list-style: none;
+  font-size: 20px;
+}
+
+img[alt="menu"] {
+  width: 20px;
+  display: none;
+}
+
+.menu-look {
+  padding: 5px 10px;
+  background: #6d9209;
+  border-radius: 15px;
+}
+
+hero-section {
+  max-width: 100vw;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.intro-name {
+  font-size: 60px;
+}
+
+.intro-dev {
+  font-size: 35px;
+}
+.proj {
+  font-size: 35px;
+}
+img[alt="Hello"] {
+  height: 45px;
+}
+
+img[alt="menu"] {
+  height: 20px;
+}
+
+img[alt="pc-image"] {
+  width: 35vw;
+}
+
+.menu-look a{
+  text-decoration: none;
+  background-color: transparent;
+}
+
+horizontal-line {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+hrline {
+  height: 10px;
+  width: 130px;
+  text-decoration: none;
+  background-color: #6d9209;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+hero-main.projects-windows {
+  margin: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 60pw; */
+  
+  padding: 40px;
+}
+
+.projects-windows ul {
+  /* width: 60pw;
+  margin: 15pw; */
+  list-style: none;
+  max-width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  row-gap: 20px;
+  column-gap: 20px;
+  text-align: center;
+}
+.social {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+img[alt="frame"] {
+  width: 40vw;
+}
+img[alt="social"] {
+  height: 50px;
+}
+
+.ytlogo {
+  scale: 155%;
+}
+
+@media screen and (max-width: 576px) {
+  nav{
+    justify-content: flex-start;
+  }
+  nav ul {
+    display: none;
+  }
+  img[alt="menu"] {
+    display: block;
+
+  }
+  .projects-windows ul {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  img[alt="frame"]{
+    width: 80vw;
+  }
+  img[alt="pc-image"]{
+    width: 60vw;
+  }
+.intro-hi {
+  font-size: 20px;
+}
+.intro-name {
+  font-size: 40px;
+}
+.intro-dev {
+  font-size: 25px;
+}
+footer{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+}
