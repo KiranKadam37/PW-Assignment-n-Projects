@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    margin-left: 4px;
+    margin-right: 4px; */
+}
+body{
+    background-color: rgb(203, 230, 0);
+    font-family: 'Shantell Sans', cursive;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.img-thumbnail{
+    width: 25vh;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+h2{
+font-size:medium;
+display: inline;
+text-align: center;
+margin: .6rem;
+}
+h6{
+    color: #4d0b0b;
+    font-weight: 700;
+    text-align: center;
+}
+mark{
+    border-radius: 50px;
+    font-weight: 700;
+    color: darkgreen;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+.container{
+    height: 90vh;
+    /* margin-top: 50px; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* event file style */
+.name-input{
+    width: 95%;
+    font-size:xx-large;
+    text-align: center;
+}
+.R-area{
+    margin-bottom: .5rem;
+    text-decoration: none;
+}
+/* img[alt="image"]:mouseover{
+    border: 25px solid green;
+} */
+
+img[alt="image1"]{
+    width: 25%;
+    border: 5px solid red;
+}
+img[alt="image2"]{
+    width: 25%;
+    border: 5px solid green;
+}
